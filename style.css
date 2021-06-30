@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+      
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: content-box;
+      }
+      body{
+        font-family: 'Montserrat', sans-serif;
+      }
+      .container{
+        width: 75%;
+        margin: 64px auto;
+      }
+
+
+      .cart{
+        width: 45%;
+        background: #F2F2F2;
+       height: 535px;
+       border-radius: 12px;
+       float: right;
+      }
+
+      .contact-information{
+        width: 50%; 
+        float: left;
+        margin-bottom: 90px;
+      }
+
+      input:focus{
+        box-shadow: 0 0 0 0;
+        outline: none;
+      }
+      .inpu{
+        border: #828282 solid .5px;
+        border-radius: 12px;
+        padding: 9px;
+         margin-bottom: 13px;
+      }
+      .inpu input{
+        
+       border-radius: 5px;
+       border: #828282 solid 1px;
+       
+        float: right;
+        width: 90%;
+        border: none;
+        background: transparent;
+        font-size: 16px;
+      }
+
+      .inpu span{
+        float: left;
+        width: 10%;
+
+        color: #828282;
+      }
+      
+      .shippingInformation{
+        margin-top: 58px;
+      }
+
+      .radioInfo{
+        margin-top: 13px;
+      }
+
+      button{
+        margin-top: 23px;
+        float: right;
+        border: none;
+        border-radius: 12px;
+        background: #F2994A;
+        padding: 17px 45px;
+      }
+
+      .inpu select{
+        border: none;
+        width: 80%;
+        color: #828282;
+        background: transparent;
+      }
+
+      select:focus{
+        border: none;
+        outline: none;
+      }
+
+      .radioInfo{
+        display: flex;
+        align-items: center;
+      }
+
+      .radioInfo input{
+
+        width: 5%;
+        margin-right: 5px;
+        border: 1px solid rebeccapurple;
+      }
+
+      .radioInfo span{
+
+        width: 95%;
+      }
+
+      .titulo h2{
+        margin-bottom: 50.94px;
+        font-size: 36px;
+      }
+
+      form h2{
+        font-size: 18px;
+      }
+      
+      form label {
+        font-size: 12px;
+
+      }
+
+      .produtos{
+        margin: 33px 36px 0 10px;
+        display: block;
+      }
+
+      .produtoItem{
+        display: flex;
+        justify-content: space-between;
+       flex-grow: 1;
+    
+       margin-bottom: 30px;
+      }
+
+      .img{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+        
+
+      }
+      .produtoItem img{
+        border-radius:20px;
+        width: 100%;
+        margin:0 auto ;
+
+      }
+
+      .qtdProdutos{
+        margin-right: 63px;
+        padding: 15px 13px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        height: 52px;
+      }
+
+      .qtdProdutos--item{
+        border: 1px solid #838383;
+        text-align: center ;
+        line-height: 50px;
+        margin: 0px;
+      }
+
+      .qtdProdutos .qtdProdutos--item{
+        width: 100%;
+      }
+      
+      .infoProducts{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+      }
+
+      .infoProducts h3{
+        font-size: 16px;
+        text-align: center;
+      }
+      .infoProducts p{
+        font-size: 12px;
+      }
+      .infoProducts .priceAtu{
+        margin-right: 10px;
+        color: orange;
+        font-size: 16px;
+      }
+
+      .paymentInfo{
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px
+      }
+
+      input[type='number']{
+        width: 20px;
+      }
+
+      
+@media (max-width: 607px){
+  .container{
+    width: 90%;
+    margin: 0px auto;
+  }
+  .cart{
+        width: 100%;
+        background: #F2F2F2;
+       height: 45%;
+       border-radius: 12px;
+       float: none;
+       display: block;
+       
+      }
+
+      .contact-information{
+        width: 100%; 
+        float: none;
+        margin-top: 39px;
+      }
+
+      input{
+        font-size: 12px;
+      }
+
+      select{
+        font-size: 12px;
+      }
+      .produtos{
+        display: block;
+      }
+
+      .produtoItem{
+        width: 100%;
+      }
+
+      .produtoItem h2{
+        font-size: 10px;
+      }
+
+      .produtoItem p{
+        font-size: 14px;
+        margin: 0px;
+      }
+      .produtoItem{
+        margin: 0px;
+        padding-top: 30px;
+      }
+      .qtdProdutos{
+        margin: 0px;
+        padding: 0px;
+      }
+      input.qtdProdutos--item{
+        width: 100%;
+        line-height: 30px;
+      }
+
+      div.radioInfo{
+        font-size: 10px;
+      }
+      button{
+        width: 166px;
+        font-size: 16px;
+        margin-bottom: 135px;
+      }
+      .titulo h2{
+        margin-top: 32px;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .areaPay{
+        margin-top: 80px;
+        margin-bottom: 18px;
+      }
+}
+
+@media (min-width:600px )and (max-width: 850px){
+  .container{
+    width: 100%;
+    margin-top: 20px;
+    margin: 0x auto;
+  }
+  .cart{
+        width: 100%;
+        background: #F2F2F2;
+       height: 45%;
+       border-radius: 12px;
+       float: none;
+      }
+
+      .contact-information{
+        width: 100%; 
+        float: none;
+        margin-top: 39px;
+        margin-bottom: 100px;
+      }
+
+      .infoProducts h3{
+        font-size: 24px;
+      }
+
+      div.infoProducts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      button{
+        margin-bottom: 50px;
+      }
+
+      
+
+      .inpu select{
+        border: none;
+        margin-left: ;
+        color: #828282;
+      }
+
+      .produtoItem{
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         padding-top: 30px;
+      }
+
+      .produtos{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .areaPay{
+        width: 100%;
+      }
+
+      .produtos.produtoItem{
+        width: 100%;
+      }
+
+      .infoProducts{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+      }
+      div.qtdProdutos{
+        margin-right: 0px;
+      }
+
+}
